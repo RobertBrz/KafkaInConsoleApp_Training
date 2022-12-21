@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleAPp.csproj": {}
+    "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleAPp.csproj": {
+    "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleAPp.csproj",
-        "projectName": "KafkaInConsoleAPp",
-        "projectPath": "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleAPp.csproj",
+        "projectUniqueName": "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleApp.csproj",
+        "projectName": "KafkaInConsoleApp",
+        "projectPath": "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\KafkaInConsoleApp.csproj",
         "packagesPath": "C:\\Users\\robert.brzozowski\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\robert.brzozowski\\Documents\\repos\\kafkaInConsoleApp\\KafkaInConsoleAPp\\KafkaInConsoleAPp\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,6 +44,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

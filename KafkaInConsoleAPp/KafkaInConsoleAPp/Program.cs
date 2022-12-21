@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using KafkaInConsoleAPp;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        CreateBuilder(args).Build().Run();
+    }
+    private static IHostBuilder CreateBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+        .ConfigureServices((collection =>
+        {
+            collection.AddHostedService<ProducerService>();
+        }
+    ));
+}
