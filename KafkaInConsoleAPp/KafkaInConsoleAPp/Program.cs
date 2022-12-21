@@ -1,4 +1,5 @@
-﻿using KafkaInConsoleAPp;
+﻿using KafkaInConsoleApp;
+using KafkaInConsoleAPp;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -12,6 +13,7 @@ internal class Program
             Host.CreateDefaultBuilder(args)
         .ConfigureServices((collection =>
         {
+            collection.AddHostedService<ConsumerService>(); 
             collection.AddHostedService<ProducerService>();
         }
     ));

@@ -71,3 +71,11 @@ C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\K
 C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\obj\Debug\net6.0\KafkaInConsoleAPp.pdb
 C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\obj\Debug\net6.0\KafkaInConsoleAPp.genruntimeconfig.cache
 C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\obj\Debug\net6.0\ref\KafkaInConsoleAPp.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\kafka-sharp.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\LZ4.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\LZ4pn.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\Snappy.Standard.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\System.Reactive.Core.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\System.Reactive.Interfaces.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\System.Reactive.Linq.dll
+C:\Users\robert.brzozowski\Documents\repos\kafkaInConsoleApp\KafkaInConsoleAPp\KafkaInConsoleAPp\bin\Debug\net6.0\System.Runtime.InteropServices.WindowsRuntime.dll

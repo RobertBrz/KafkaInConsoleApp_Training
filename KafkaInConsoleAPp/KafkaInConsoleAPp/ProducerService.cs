@@ -27,7 +27,7 @@ namespace KafkaInConsoleAPp
 
         public async Task StartAsync(CancellationToken cancellationToken)
         {
-            for (int inc = 0; inc < 100; inc++)
+            for (int inc = 0; inc < 1000; inc++)
             {
                 var value = $"test string {inc}";
                 logger.LogInformation(value);
